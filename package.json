@@ -1,0 +1,29 @@
+{
+  "name": "express_passport",
+  "version": "1.0.0",
+  "description": "Express app with passport authentication and mongoose  ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitbahekar/express_passport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitbahekar/express_passport/issues"
+  },
+  "homepage": "https://github.com/rohitbahekar/express_passport#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}
